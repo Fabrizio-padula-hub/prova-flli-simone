@@ -66,7 +66,6 @@ ul{
     margin-top: -8px;
 }
 
-
 /*----------- 
     HEADER 
 ------------*/
@@ -99,6 +98,36 @@ header section{
 main{
     height: calc(100vh - 140px);
     overflow-y: auto;
+}
+.beer{
+    background-image: url(./img/bancone-birra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.bitter{
+    background-image: url(./img/amaro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.prosecco{
+    background-image: url(./img/prosecco.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.wine{
+    background-image: url(./img/vino.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.energy-drinks{
+    background-image: url(./img/bevande-energetiche.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
 }
 
 /*----------- 
