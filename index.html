@@ -111,26 +111,50 @@
     </header>
     
     <main>
-        <h2 class="text-center">In evidenza</h2>
+        <div class="container-fluid mt-4">
+            <!-- scelti per te -->
+            <div class="d-flex justify-content-between align-items-center rounded-top ms-bg-primary ms-border-shadow p-3">
+                <h4 class="text-body-tertiary">Scelti per te</h4>
+                <!-- btn filtra -->
+                <button class="btn ms-bg-lightdark text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
+                    Filtra<i class="fa-solid fa-sliders ms-3"></i>
+                </button>
 
-        <div class="container-main d-flex justify-content-center">
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasBottomLabel">Offcanvas bottom</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body small">
+                        ...
+                    </div>
                 </div>
-                <ul class="list-group list-group-flush">
-                <li class="list-group-item">An item</li>
-                <li class="list-group-item">A second item</li>
-                <li class="list-group-item">A third item</li>
-                </ul>
-                <div class="card-body">
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
+                <!-- /btn filtra -->
+            </div>
+            <!-- /scelti per te -->
+            <!-- card birra -->
+            <div class="grid container-fluid">
+                <div class="row d-flex justify-content-between ms-bg-primary ms-color-border ms-rounded-16 border-t margin-negative ms-border-shadow p-3">
+                    <div class="col-8">
+                        <h3>Le nostre birre</h3>
+                        <p class="text-body-tertiary">
+                            Scopri la nostra selezione di birre artigianali di alta qualità, provenienti dalle migliori birrifici artigianali locali e internazionali. 
+                        </p>
+                    </div>
+                    <div class="col-4 rounded-5 debug">
+                        
+                    </div>
+
                 </div>
             </div>
+            <!-- card birra -->
+
+            
         </div>
+
+
+
+
     </main>
 
     <footer class="ms-bg-lightdark">
