@@ -151,3 +151,7 @@ footer{
     color: #fff;
     box-shadow: 0px 0px 4px 0px #000000;
 }
+.ms-row-hover:hover{
+    background-color: #e7e5e5;
+    transform: scale(0.9);
+}
