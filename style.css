@@ -164,13 +164,23 @@ footer{
     .grid-container span{
         display: none;
     }
+    .ms-border-shadow{
+        box-shadow: none; 
+    }
 }
+
 @media screen and (min-width: 992px){
     .grid-container{
         grid-template-columns: repeat(3, 1fr);
     }
     .grid-container span{
         display: inline;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .grid-container{
+        grid-template-columns: repeat(5, 1fr);
     }
 }
 
